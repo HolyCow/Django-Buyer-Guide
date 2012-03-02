@@ -4,6 +4,7 @@ from django.db import models
 class Group(models.Model):
    name = models.CharField(max_length=30)
    email = models.EmailField()
+   join_date = models.DateField()
 
    def __unicode__(self):
       return self.name
