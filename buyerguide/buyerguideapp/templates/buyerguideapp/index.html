@@ -1,9 +1,24 @@
 <html>
     <head>
+        <link href="{{ STATIC_URL }}/css/bootstrap.css" rel="stylesheet">
+        <link href="{{ STATIC_URL }}/css/bootstrap-responsive.css" rel="stylesheet">
+        <link href="{{ STATIC_URL }}/css/docs.css" rel="stylesheet">
+        <link href="{{ STATIC_URL }}/js/google-code-prettify/prettify.css" rel="stylesheet">
+
+        <!--[if lt IE 9]>
+          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
         <title>Buyer Guide</title>
     </head>
     <body>
-        <h1>Publications</h1>
-        <p>Hello</p>
+        <div class="container">
+            <div class="span12">
+                <h1>Publications</h1>
+            </div>
+            <div class="span12">
+                <p>Hello</p>
+            </div>
+        </div>
     </body>
+    <pre>{{ debug }}</pre>
 </html>
